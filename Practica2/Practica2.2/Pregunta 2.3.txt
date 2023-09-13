@@ -1,0 +1,2 @@
+Refrescar la pagina web ¿que hay de diferencia?
+El funcionamiento es el mismo porque de cualquier forma esta conectado por internet, pero esto nos da muchas mas posibilidades de implementaciones que no dependan de conexión física.
