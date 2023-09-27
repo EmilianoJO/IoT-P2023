@@ -1,0 +1,3 @@
+Acercar a diferentes distancias cosas hacia el sensor....
+Que pasa???
+Los números aumentan o se reducen dependiendo con el aproximado de la distancia.

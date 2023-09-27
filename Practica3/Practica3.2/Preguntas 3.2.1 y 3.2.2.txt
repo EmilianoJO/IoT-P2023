@@ -1,0 +1,5 @@
+3.2.1 tocar el sensor por unos momentos con los dedos... que pasa?
+Después de unos segundos empienzan a aumentar la temperatura y la humedad hasta cierto punto.
+
+3.2.2 Acercarse al sensor y aventar un poco de aliento (vaho)... que pasa???
+De igual manera aumentan la temperatura y la humedad, en esto caso la humedad aumenta más rápido.

@@ -1,0 +1,2 @@
+1. Cómo aumentarias el storage para guardar mas tarjetas? Analiza el código... y responde
+Agregando arrays de valores hexadecimales correspondientes al id de las tarjetas.
