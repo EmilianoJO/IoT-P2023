@@ -1,0 +1,21 @@
+1. Que tan preciso es el sensor respecto a la temperatura que da la API?
+	La API muestra una aproximación de la temperatura en un área muy grande, así que es normal que no sea tan precisa si cerca del sensor hay un cambio repentino, pero en general muestra temperatura muy cercan al DHT.
+
+2. Cual es el % de variación ?
+(22.5/22.59) * 100 = 0.996. Hay una variación de menos de 1%.
+	
+3. Cual es la principal diferencia entre la práctica 5.1 y la 5.2 con la 5.3?
+La diferencia entre las prácticas es el orgien de los datos que utilizan.
+
+4. Cual plataforma cloud de IoT se te ha hecho mas amigable de las dos revisadas y porque?
+Thingsspeak porque me pareció más rápida para comenzar a utilizar, representar la información gráficamente y hacer la conexión sin neecesidad de otras aplicaciones.
+
+5. En tus propias palabras como explicarías para que sirve la plataforma cloud de IoT y porque se llama de IoT y no simplemente plataforma cloud?
+En una plataforma especial para IoT facilita mucho la comunicación para recibir la información de los sensores y directamente ir representado graficamente esta información para su análisis.
+
+6. Revisa el código y contesta cuales son las líneas de código que escriben el satus?
+
+// set status
+ThingSpeak.setStatus(status);
+// write to the ThingSpeak Channel
+int code = ThingSpeak.writeFields(channelNumber, writeAPIKey);
