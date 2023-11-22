@@ -6,9 +6,9 @@
  * Define Instances and Constants
  ****************************************/
 const char* UBIDOTS_TOKEN = "BBFF-Z0W9NTwtgSxPkpXL8Fe3raxrJObsvJ";  // Put here your Ubidots TOKEN
-const char* UBIDOTS_DEVICELABEL = "EmilianoDevice"; // Device label to use
-const char* WIFI_SSID = "IoT";      // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "1t3s0IoT23";      // Put here your Wi-Fi password
+const char* UBIDOTS_DEVICELABEL = "seedcounter"; // Device label to use
+const char* WIFI_SSID = "CHOOCHOO";      // Put here your Wi-Fi SSID
+const char* WIFI_PASS = "2238922181";      // Put here your Wi-Fi password
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 // Ubidots ubidots(UBIDOTS_TOKEN, UBI_TCP); // Uncomment to use TCP
 // Ubidots ubidots(UBIDOTS_TOKEN, UBI_UDP); // Uncomment to use UDP
@@ -24,7 +24,7 @@ DHT dht1(pin1, DHT11);    //El sensor de temp y humedad azul.
 void setup() {
   Serial.begin(115200);
   ubidots.wifiConnect(WIFI_SSID, WIFI_PASS);
-  // ubidots.setDebug(true);  // Uncomment this line for printing debug messages
+  ubidots.setDebug(true);  // Uncomment this line for printing debug messages
   // Sensor de temp y humedad
   dht1.begin();
 }
